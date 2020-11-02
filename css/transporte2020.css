@@ -85,6 +85,17 @@ h2{
 .homeimg img{
     max-width: 100%;
 }
+.homeimg .cycle-overlay{
+    font-family: 'Open Sans', sans-serif; ;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 600;
+    background: black;
+    color: white;
+    padding: 15px;
+    opacity: 0.7;
+}
 
 .columnas{
     overflow: hidden;
