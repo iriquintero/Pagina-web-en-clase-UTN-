@@ -17,7 +17,7 @@
         </div>
     </header>
     <nav>
-        <div class="holder">
+        <div class="holder" >
             <ul>
                 <li><a class="activo" href="index.html">Home</a></li>
                 <li><a href="nosotros.html">Nosotros</a></li>
@@ -28,9 +28,25 @@
              </ul>
         </div>
     </nav>
-    <main class="holder">
-        <div class="homeimg">
-            <img src="img/home/img01.jpg" alt="Avion">
+    <main class="holder" >
+        <div class="cycle-slideshow homeimg" data-cycle-fx=scrollHorz
+        data-cycle-timeout=2000>
+            <div class="cycle-overlay"></div>
+            <img src="img/home/img01.jpg" alt="Avion"
+            data-cycle-title="Avion" 
+            data-cycle-desc="Nuestros transportes">
+            <img src="img/home/img02.jpg" alt="Gandola"
+            data-cycle-title="Gandola" 
+            data-cycle-desc="Nuestros transportes">
+            <img src="img/home/img03.jpg" alt=""
+            data-cycle-title="Barco" 
+            data-cycle-desc="Nuestros transportes">
+            <img src="img/home/img04.jpg" alt=""
+            data-cycle-title="Gandola" 
+            data-cycle-desc="Nuestros transportes">
+            <img src="img/home/img05.jpg" alt=""
+            data-cycle-title="Depositos" 
+            data-cycle-desc="Nuestros transportes">
         </div>
         <div class="columnas">
             <div class="bienvenidos left">
@@ -49,7 +65,8 @@
     <footer> 
         <p>Diseñado por Iriangel Quintero - &copy; 2020</p>
     </footer>
-    
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/jquery.cycle2.min.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 </html>
