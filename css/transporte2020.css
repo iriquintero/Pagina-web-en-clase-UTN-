@@ -117,6 +117,9 @@ h2{
     background-color: #ccc;
     padding:1em;
 }
+.testimonios .cycle-slideshow{
+    background-color: #ccc;
+}
 
 .testimonio .cita{
     font-weight:bold;
