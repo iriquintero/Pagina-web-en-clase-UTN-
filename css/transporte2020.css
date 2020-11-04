@@ -314,6 +314,19 @@ h2{
     height:10em;
     resize:none;/*quita la opcion de agrandar*/
  }
+
+ .formulario label.error{
+     width:auto;
+     font-size: 0.8em;
+     color:red;
+ }
+
+.formulario input.error,
+.formulario textarea.error{
+    border: 1px solid red;
+    background-color: pink;
+}
+
 .formulario input[type="submit"]{ 
     background-color:#6da9ed ;
     box-shadow: 0 0 10px rgba(0,0,0, 0.4);
